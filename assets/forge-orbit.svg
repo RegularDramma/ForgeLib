@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <radialGradient id="nebula" cx="50%" cy="47%" r="58%">
+      <stop offset="0" stop-color="#8d20c8" stop-opacity=".38"/>
+      <stop offset=".38" stop-color="#551078" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#08050e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7c37ff" stop-opacity=".08"/>
+      <stop offset=".34" stop-color="#c15cff" stop-opacity=".96"/>
+      <stop offset=".57" stop-color="#ff5bc8"/>
+      <stop offset=".8" stop-color="#8d46ff" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#4a1b88" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1=".15" y1="0" x2=".82" y2="1">
+      <stop stop-color="#f5d6ff" stop-opacity=".9"/>
+      <stop offset=".18" stop-color="#b74cff" stop-opacity=".88"/>
+      <stop offset=".48" stop-color="#40115f" stop-opacity=".98"/>
+      <stop offset=".73" stop-color="#e82fca" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#1c0a31"/>
+    </linearGradient>
+    <linearGradient id="facet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#edb9ff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#5e12a0" stop-opacity=".12"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="13" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#nebula)"/>
+  <ellipse cx="800" cy="500" rx="510" ry="220" fill="#a522d0" opacity=".13" filter="url(#soft)"/>
+  <g opacity=".58" stroke="#8d42d6" stroke-width="1.2">
+    <path d="M70 265 Q360 90 650 260 T1260 245 T1580 210" opacity=".4"/>
+    <path d="M15 710 Q300 560 600 710 T1210 675 T1610 690" opacity=".3"/>
+    <path d="M180 160 Q470 60 760 150 T1430 135" opacity=".24"/>
+  </g>
+  <g transform="translate(800 485) rotate(-17)">
+    <ellipse rx="500" ry="148" stroke="#7b28c5" stroke-width="32" opacity=".14" filter="url(#soft)"/>
+    <ellipse rx="500" ry="148" stroke="url(#ring)" stroke-width="13" opacity=".9" filter="url(#glow)"/>
+    <ellipse rx="500" ry="148" stroke="#e5a5ff" stroke-width="2" opacity=".76"/>
+    <path d="M-493 3 C-390 -119 -142 -164 89 -130" stroke="#eaa8ff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+    <path d="M140 130 C305 94 433 40 491 -14" stroke="#ff67d3" stroke-width="4" stroke-linecap="round" opacity=".9" filter="url(#glow)"/>
+  </g>
+  <g transform="translate(800 460)">
+    <path d="M0 -300 L148 -95 L95 150 L-25 298 L-135 84 L-102 -145 Z" fill="#5a177c" opacity=".6" filter="url(#soft)"/>
+    <path d="M0 -300 L124 -95 L38 -28 L-80 -124 Z" fill="url(#facet)"/>
+    <path d="M0 -300 L38 -28 L-80 -124 Z" fill="#f1b6ff" fill-opacity=".52"/>
+    <path d="M124 -95 L95 150 L38 -28 Z" fill="url(#crystal)"/>
+    <path d="M124 -95 L38 -28 L154 28 Z" fill="#b833ed" fill-opacity=".62"/>
+    <path d="M95 150 L-25 298 L-18 73 L38 -28 Z" fill="#2b0b43"/>
+    <path d="M-25 298 L-135 84 L-18 73 Z" fill="url(#crystal)"/>
+    <path d="M-135 84 L-102 -145 L-18 73 Z" fill="#6f23a0" fill-opacity=".9"/>
+    <path d="M-102 -145 L-80 -124 L-18 73 Z" fill="#f05ad9" fill-opacity=".54"/>
+    <path d="M-80 -124 L38 -28 L-18 73 Z" fill="#180a27"/>
+    <path d="M38 -28 L95 150 L-18 73 Z" fill="#d64bea" fill-opacity=".38"/>
+    <path d="M0 -300 L124 -95 L95 150 L-25 298 L-135 84 L-102 -145 Z" stroke="#e8a6ff" stroke-opacity=".6" stroke-width="2"/>
+    <path d="M-102 -145 L0 -300 L-80 -124 L-135 84 M-80 -124 L38 -28 L124 -95 M-18 73 L38 -28 L95 150" stroke="#f0b7ff" stroke-opacity=".48" stroke-width="1.4"/>
+    <path d="M-20 -270 L7 -209 L-23 -181 L-47 -227 Z" fill="#f6d8ff" opacity=".85" filter="url(#glow)"/>
+  </g>
+  <g fill="#f4c7ff">
+    <path d="M320 258 l18 -38 16 39 -16 25z" opacity=".7"/>
+    <path d="M1215 294 l24 -50 17 44 -22 33z" opacity=".8"/>
+    <path d="M1110 660 l17 -35 22 32 -21 28z" opacity=".56"/>
+    <path d="M440 710 l12 -29 16 27 -15 21z" opacity=".5"/>
+    <path d="M1325 480 l10 -22 13 24 -12 14z" opacity=".76"/>
+  </g>
+  <g fill="#e77dff">
+    <circle cx="235" cy="420" r="2.5"/><circle cx="390" cy="570" r="2"/><circle cx="1240" cy="190" r="2.5"/><circle cx="1370" cy="620" r="2"/><circle cx="590" cy="190" r="1.8"/><circle cx="1030" cy="760" r="2.2"/><circle cx="720" cy="810" r="1.7"/><circle cx="1460" cy="360" r="2.2"/><circle cx="160" cy="630" r="1.8"/>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+{
+  "color": {"bg": "#111111", "surface": "#1d1d1d", "text": "#f2f2f2", "muted": "#9b9b9b", "accent": "#4caf50"},
+  "spacing": {"xs": 4, "sm": 8, "md": 16, "lg": 24, "xl": 40},
+  "radius": {"sm": 8, "md": 14, "lg": 22}
+}
