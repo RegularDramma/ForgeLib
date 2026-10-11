@@ -1,5 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
-<rect width="900" height="360" rx="24" fill="#111"/>
-<g fill="#1d1d1d" stroke="#4caf50"><rect x="30" y="30" width="260" height="300" rx="18"/><rect x="320" y="30" width="260" height="300" rx="18"/><rect x="610" y="30" width="260" height="300" rx="18"/></g>
-<g fill="#eaeaea" font-family="Arial"><text x="55" y="80" font-size="22">Revenue</text><text x="55" y="145" font-size="42">$12,480</text><text x="345" y="80" font-size="22">Balance</text><text x="345" y="145" font-size="42">$8,920</text><text x="635" y="80" font-size="22">Growth</text><text x="635" y="145" font-size="42">+18%</text></g>
+<rect width="900" height="360" rx="24" fill="#111118"/>
+<g fill="#1d1b29" stroke="#8b5cf6" stroke-width="2">
+<rect x="30" y="30" width="260" height="300" rx="18"/>
+<rect x="320" y="30" width="260" height="300" rx="18"/>
+<rect x="610" y="30" width="260" height="300" rx="18"/>
+</g>
+<g fill="#f2f0ff" font-family="Arial, sans-serif">
+<text x="55" y="90" font-size="22">Revenue</text>
+<text x="55" y="145" font-size="38">12,480</text>
+<text x="345" y="90" font-size="22">Balance</text>
+<text x="345" y="145" font-size="38">8,920</text>
+<text x="635" y="90" font-size="22">Growth</text>
+<text x="635" y="145" font-size="38">+18%</text>
+</g>
+<g stroke="#8b5cf6" stroke-width="3" fill="none">
+<path d="M55 270 L100 245 L145 255 L190 215 L235 225 L265 195"/>
+<path d="M345 270 L390 255 L435 265 L480 225 L525 235 L555 205"/>
+<path d="M635 270 L680 255 L725 230 L770 240 L815 205 L845 190"/>
+</g>
 </svg>
